@@ -2,7 +2,7 @@
 
 const float calibration_factor = 0.08 / 0.44;  // Adjust based on actual vs. measured values
 const int num_samples = 1000; // Number of readings for averaging
-const float VREF = 5.0; // Arduino Mega 2560 reference voltage
+const float VREF = 5.0; // Arduino reference voltage
 const int ADC_RESOLUTION = 1024; // 10-bit ADC (0-1023)
 const float max_sensor_voltage = 1.0; // Max sensor output voltage at 5A
 const float max_sensor_current = 5.0; // Max measurable current (5A)
